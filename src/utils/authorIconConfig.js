@@ -1,7 +1,11 @@
+import facefusionIcon from '../assets/icons/authors/facefusion.png';
+import xueshuIcon from '../assets/icons/authors/xueshu.jpg';
+import aifunIcon from '../assets/icons/authors/aifun.png';
+
 export const authorIconMapping = {
-    "http://facefusion.site": "https://cdn.xueshu.fun/202502141654660.png",
-    "http://xueshu.fun": "https://cdn.xueshu.fun/202502141654279.jpg",
-    "https://aifun.fans": "https://cdn.xueshu.fun/202502141654783.png"
+    "http://facefusion.site": facefusionIcon,
+    "http://xueshu.fun": xueshuIcon,
+    "https://aifun.fans": aifunIcon
 };
 
 export default authorIconMapping;

@@ -20,12 +20,12 @@ const BasicTheme = ({ config }) => {
                     <div className=" flex mx-4  p-4 rounded-xl items-center bg-white">
                         {
                             customIcon ?
-                                <div className="w-12 h-12  ">
+                                <div className="w-12 h-12">
                                     <img src={customIcon} alt="img" className="rounded-full bg-white p-1 border-white" />
                                 </div>
                                 :
                                 <div className="mr-auto ml-2 items-center justify-center flex">
-                                    <i className={`devicon-${icon.value}-plain  p-4 dev-icon text-5xl`}></i>
+                                    <i className={`devicon-${icon.value}-plain p-4 dev-icon text-5xl`}></i>
                                 </div>
                         }
 

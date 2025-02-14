@@ -6,5 +6,18 @@
 .hashnode {
     height: 420px;
     width: 800px;
+}
 
+.author-icon {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+}
+
+.author-icon img {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
 }
