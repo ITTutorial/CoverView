@@ -197,7 +197,13 @@ const Home = () => {
                     <footer className=" p-10 gap-2 flex md:flex-row flex-col-reverse font-Inter md:px-20 md:justify-between justify-center mx-auto md:w-10/12 w-full items-center">
 
                         <div className=" flex flex-col">
-                            <span className="md:text-lg text-sm">Made with 💛 by <a href="https://rutik.dev" className="font-semibold underline decoration-wavy underline-offset-4" target="_blank" rel="noreferrer">Rutik Wankhade</a></span>
+                            <span className="md:text-lg text-sm">友情链接: 
+                                <a href="http://facefusion.site" className="font-semibold hover:underline mx-2" target="_blank" rel="noreferrer">FaceFusion</a>
+                                <span className="text-gray-400">|</span>
+                                <a href="http://xueshu.fun" className="font-semibold hover:underline mx-2" target="_blank" rel="noreferrer">XueShu</a>
+                                <span className="text-gray-400">|</span>
+                                <a href="https://aifun.fans" className="font-semibold hover:underline mx-2" target="_blank" rel="noreferrer">AIFun</a>
+                            </span>
                         </div>
 
                         <div className="md:text-lg text-sm flex flex-wrap gap-4 ">
